@@ -47,10 +47,10 @@
 }
 .social-links i{
     font-size: 25px;
-    color: whitesmoke;
+    color: black;
 }
 .social-links a:hover i{
-    color: black;
+    color: whitesmoke;
     transition: 0.8s;
 }
 .navbar a{
@@ -218,24 +218,28 @@
     }
     .logo {
         font-size: 20px;
+        font-weight: 800;
     }
     .logo span:nth-child(1),
     .logo span:nth-child(2) {
         font-size: 25px;
+        font-weight: 800;
     }
     .social-links {
         margin: 0 auto 0 10px;
     }
     .social-links a {
-        width: 25px;
-        height: 25px;
+        width: 10px;
+        height: 10px;
     }
     .social-links i {
-        font-size: 18px;
+        font-size: 15px;
+        box-shadow: 0 0 30px rgba(49, 2, 2, 0.945);
     }
     .navbar a {
-        font-size: 16px;
+        font-size: 10px;
         margin-left: 15px;
+        font-weight: 800;
     }
     .slide img{
         position:absolute;
@@ -244,7 +248,8 @@
         object-fit: cover;
     }
     .blur h1 {
-        font-size: 100px;
+        font-size: 50px;
+        font-weight: 800;
     }
     .left-info .content {
         bottom: 5%;
@@ -252,26 +257,33 @@
     }
     .content h2 {
         font-size: 18px;
+        font-weight: 800;
     }
     .content p {
-        font-size: 20px;
+        font-size: 10px;
+        font-weight: 800;
     }
     .content .btn {
         padding: 8px 16px;
-        font-size: 20px;
+        font-size: 16px;
+        font-weight: 800;
     }
     .right-info h1 {
-        font-size: 100px;
+        font-size: 50px;
+        font-weight: 700;
     }
     .right-info h3 {
-        font-size: 50px;
+        font-size: 30px;
+        font-weight: 600;
     }
     .navigation span {
-        width: 35px;
-        height: 35px;
+        width: 25px;
+        height: 25px;
         margin-left: 10px;
     }
     .navigation span i {
-        font-size: 30px;
+        font-size: 20px;
+        font-weight: 800;
     }
 }
+
